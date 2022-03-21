@@ -1,0 +1,33 @@
+1 - Um algoritmo capaz de calcular a divisão de dois números e apresentar o resultado
+Passo 1 - Digite o primeiro número
+Passo 2 - Guarde o primeiro número na variável num1
+Passo 3 - Digite o segundo número
+Passo 4 - Guarde o segundo número na variável num2
+Passo 5 - Pegue a variável num1 some com a num2 e divida o resultado da soma por 2
+Passo 6 - Guarde a o resultado do passo 5 na variável resultado
+Passo 7 - Mostre na tela a variável resultado
+
+2 - Um algoritmo para calcular a média aritmetica de 3 notas e apresentar o resultado
+Passo 1 - Digite a primeira nota
+Passo 2 - Guarde a primeira na variável nota1
+Passo 3 - Digite segunda nota
+Passo 4 - Guarde a segunda nota na variável nota2
+Passo 5 - Digite a terceira nota
+Passo 6 - Guarde a terceira nota na variável nota3
+Passo 7 - Some as variáveis nota1, nota2 e nota3 e divida o resultado da soma por três
+Passo 8 - Pegue o resultado do passo 7 e guarde na variável media
+Passo 9 - Mostre na tela a variável media
+
+3 - Um algoritmo capaz de calcular o exponencial de um número por outro
+Passo 1 - Digite o priemeiro número
+Passo 2 - Guarde o primeiro número na variável num1
+Passo 3 - Digite o segundo número
+Passo 4 - Guarde o segundo número na variável num2
+Passo 5 - Pegue a variável num1 faça a exponencial com o num2 
+Passo 6 - Pegue o resultado do Passo 5 e guarde na variável resultado
+
+4 - Um algoritimo capaz de apresentar a sua idade daqui a 20 anos
+Passo 1 - Digite a sua idade
+Passo 2 - Guarde a sua idade na variavel idade
+Passo 3 - Some a variavel idade com mais 20
+Passo 4 - Guarde o resultado do Passo 3 na variável resultado
