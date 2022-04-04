@@ -19,8 +19,7 @@ public class Contador {
 		Contador valor1 = new Contador();
 		valor1.setZerarContador(0);
 		valor1.setIncrementar();
-		int valor = valor1.getRetornaValor();
-		System.out.println(valor);
+		System.out.println(valor1.getRetornaValor());
 		valor1.setIncrementar();
 		System.out.println(valor1.getRetornaValor());
 	}
