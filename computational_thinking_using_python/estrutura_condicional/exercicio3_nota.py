@@ -10,7 +10,7 @@ elif media == 5 and faltas <= 18:
     print('Você ficou de exame')
     exame = int(input('Digite o valor da media: '))
     nova_media = (media + exame) / 2
-    if nova_media >= 6
+    if nova_media >= 6:
         print('Você foi aprovado.')
     else:
         print('Você foi reprovado!')
