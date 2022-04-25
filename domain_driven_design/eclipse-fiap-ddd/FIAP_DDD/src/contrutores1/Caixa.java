@@ -13,6 +13,12 @@ public class Caixa {
 		this.profundidade = 10;
 	}
 	
+	// Construtor parametrizado
+	public Caixa(double l, double a, double p) {
+		largura = l;
+		altura = a;
+		profundidade = p;
+	}
 	
 	public double volumeCaixa() {
 		System.out.println("Calculando o volume da caixa");
