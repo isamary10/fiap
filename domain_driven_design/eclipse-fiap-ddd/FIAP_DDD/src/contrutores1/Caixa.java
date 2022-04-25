@@ -1,5 +1,7 @@
 package contrutores1;
 
+import java.util.Scanner;
+
 public class Caixa {
 	private double largura;
 	private double altura;
@@ -13,6 +15,7 @@ public class Caixa {
 		this.profundidade = 10;
 	}
 	
+	
 	// Construtor parametrizado
 	public Caixa(double l, double a, double p) {
 		largura = l;
@@ -25,6 +28,27 @@ public class Caixa {
 		return largura * altura * profundidade;
 	}
 
+	public void entradaDados() {
+		System.out.println("Entrada de Dados");
+		Scanner input = new Scanner(System.in);
+		System.out.println("Largura: ");
+		double larg = input.nextDouble();
+		System.out.println("Altura: ");
+		double alt = input.nextDouble();
+		System.out.println("Profundidade: ");
+		double prof = input.nextDouble();
+		// Configurando os dados do objeto
+		setLargura(larg);
+		setAltura(alt);
+		setProfundidade(prof);
+	}
+	
+	public double entradaDados2() {
+		System.out.println("Entrada de Dados 2");
+		Scanner entrada = new Scanner(System.in);
+		double num = entrada.nextDouble();
+		return num;
+	}
 
 	public double getLargura() {
 		return largura;
