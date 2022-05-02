@@ -1,4 +1,4 @@
-package contrutores1;
+	package contrutores1;
 
 public class TesteCaixa {
 	public static void main(String[] args) {
