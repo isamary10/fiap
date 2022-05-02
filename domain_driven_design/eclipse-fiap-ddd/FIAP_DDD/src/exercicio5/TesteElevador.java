@@ -21,15 +21,22 @@ public class TesteElevador {
 		System.out.println("Quantidade pessoas no elevador: " + elevador2.getQtdPessoas());
 		
 		// Criação do Scanner
-//		Scanner input = new Scanner(System.in);
-//		System.out.println("Capacidade 3: ");
-//		int capaci = input.nextInt();
-//		System.out.println("Quantidade andares 3: ");
-//		int qtdAnd = input.nextInt();
-//		System.out.println("Andar atual 3: ");
-//		int andAtu = input.nextInt();
-//		System.out.println("Quantidade pessoas 3: ");
-//		int qtdPess = input.nextInt();
+		System.out.println("==========SCANNER==========");
+		Scanner input = new Scanner(System.in);
+		System.out.println("Capacidade: ");
+		int capaci = input.nextInt();
+		System.out.println("Quantidade andares: ");
+		int qtdAnd = input.nextInt();
+		System.out.println("Andar atual: ");
+		int andAtu = input.nextInt();
+		System.out.println("Quantidade pessoas: ");
+		int qtdPess = input.nextInt();
+		Elevador elevador6 = new Elevador (capaci, qtdAnd, andAtu, qtdPess);
+		elevador6.setDesce(1);
+		elevador6.setEntra(1);
+		elevador6.setSai(1);
+		elevador6.setSobe(1);
+		
 		
 		// Testando os métodos
 		System.out.println("====================");
