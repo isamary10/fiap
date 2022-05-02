@@ -8,7 +8,7 @@ public class Elevador {
 	private int capacidade;
 	private int qtdPessoas;
 	
-	// Contrutor
+	// Construtor com valores default
 	public Elevador() {
 		this.andarAtual = 0;
 		this.andares = 12;
@@ -17,27 +17,27 @@ public class Elevador {
 	}
 	
 	// Construtor com parâmetro
-	public Elevador(int cap, int and, int andA, int qtdP) {
+	public Elevador(int cap, int qtdAndares, int andAtual, int qtdP) {
 		capacidade = cap;
-		andares = and;
-		andarAtual = andA;
+		andares = qtdAndares;
+		andarAtual = andAtual;
 		qtdPessoas = qtdP;
 	}
 	
 	public void entradaDados() {
 		System.out.println("Entrada de Dados");
-		Scanner userInput = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.print("Capacidade: ");
-		int cp = userInput.nextInt();
+		int capacidade = input.nextInt();
 		System.out.print("Andares: ");
-		int andar = userInput.nextInt();
+		int qtdAndar = input.nextInt();
 		System.out.print("Andar atual: ");
-		int andAtu = userInput.nextInt();
+		int andarAtual = input.nextInt();
 		System.out.print("Quantidade pessoas elevador: ");
-		int qtdPessoa = userInput.nextInt();
-		setCapacidade(cp);
-		setAndares(andar);
-		setAndarAtual(andAtu);
+		int qtdPessoa = input.nextInt();
+		setCapacidade(capacidade);
+		setAndares(qtdAndar);
+		setAndarAtual(andarAtual);
 		setQtdPessoas(qtdPessoa);
 	}
 	

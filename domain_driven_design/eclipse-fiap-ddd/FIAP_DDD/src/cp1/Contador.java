@@ -1,7 +1,7 @@
 package cp1;
 
 public class Contador {
-	int valor = 5;
+	int valor;
 	
 	public void setZerarContador(int valor) {
 		this.valor = valor;
