@@ -15,7 +15,7 @@ public class TestaVetoresComMetodos {
 		System.out.println("Valor do num: ");
 		int num = input.nextInt(); 
 		int cont = vm.verificarOcorrencias(vetor, num);
-		System.out.printf("Quantidade valor vetor[i] é igual ao num %d: %d", num, cont);
+		System.out.printf("Quantidade do valor vetor[i] é igual ao num %d: %d", num, cont);
 	}
 
 }
