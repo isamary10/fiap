@@ -6,4 +6,5 @@ resultado = 1
 while contador <= 10:
     tabuada = resultado * contador
     contador += 1
+    resultado += 1
     print(tabuada)
