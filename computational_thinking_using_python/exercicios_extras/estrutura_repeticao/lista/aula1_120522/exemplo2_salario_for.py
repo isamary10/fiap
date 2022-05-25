@@ -2,8 +2,6 @@
 salarios = [0,0,0,0]
 soma = 0
 qtd = 0
-for i in salarios:
+for i in range(4):
     salarios[i] = float(input('Salário: '))
-    salarios.append(salarios[i])
-    qtd += 1
 print(salarios)
